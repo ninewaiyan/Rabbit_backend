@@ -1,0 +1,15 @@
+username : ninewaiyan2022_db_user
+password : wGBQW6f0tkqHXivT
+
+Add a connection IP address
+Your current IP address (104.28.219.149) has been added to enable local connectivity. Only an IP address you add to your Access List will be able to connect to your project's clusters. Add more later in Network Access.
+
+Create a database user
+A database user has been added to this project. Create another user later in Database Access.
+You'll need your database user's credentials in the next step.
+
+mongodb+srv://ninewaiyan2022_db_user:wGBQW6f0tkqHXivT@cluster0.mkh6kuy.mongodb.net/?appName=Cluster0
+
+mongodb+srv://ninewaiyan2022_db_user:<db_password>@cluster0.mkh6kuy.mongodb.net/?appName=Cluster0
+
+MONGO_URI = mongodb+srv://ninewaiyan2022_db_user:wGBQW6f0tkqHXivT@cluster0.mkh6kuy.mongodb.net/rabbit?appName=Cluster0
