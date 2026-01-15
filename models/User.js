@@ -31,7 +31,7 @@ const userSchema = new mongoose.Schema({
 //Password Hash middleware
 userSchema.pre("save", async function () {
 
-    if (!this.isModified("password")) return next();
+    if (!this.isModified("password")) return ;
 
     // ✅ generate salt FIRST
     const salt = await bcrypt.genSalt(10);
